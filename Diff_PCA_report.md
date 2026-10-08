@@ -14,6 +14,12 @@
 
 ## Запуск и сохранённые выводы
 
+Ошибка возникает потому, что параметр `normalize` был удалён из LinearRegression в новых версиях scikit-learn.
+
+В `scikit-learn 1.0` параметр normalize был помечен как устаревший (deprecated).
+В `scikit-learn 1.2` он был полностью удалён.
+У нас версия 1.2+, поэтому `LinearRegression(normalize=True)` больше не работает.
+
 `seed = 60119`. Версии: Python 3.13, numpy 2.5.3, scipy 1.18.1, scikit-learn 1.9.1.
 
 Все печатаемые числа сошлись: размерности, `n_components_`, оба `True`.
