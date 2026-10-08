@@ -1,2 +1,6 @@
 *.pdf
 *.xlsx
+*__pycache__
+venv
+*.egg-info
+results

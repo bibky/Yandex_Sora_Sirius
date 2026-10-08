@@ -12,13 +12,12 @@ dependencies = [
     "numpy",
     "scipy",
     "scikit-learn>=1.2",
-    "matplotlib",
-    "torch"
+    "matplotlib"
 ]
 
 [project.optional-dependencies]
 torch = ["torch"]
-notebooks = ["jupyterlab", "ipykernel", "tqdm"]
+notebooks = ["jupyterlab", "ipykernel", "tqdm", "pandas"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
