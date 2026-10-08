@@ -36,6 +36,15 @@ $$
 
 Воспроизвести результаты статьи на примерах, доступных в открытом виде.
 
+## step-by-step
+
+1) python3 -m venv venv 
+2) source venv/bin/activate
+   - DiffReg: pip install -e ".[notebooks]"
+   - DML: TBD
+   - PCA: TBD
+3) run .ipynb
+
 ## Ссылки
 
 - Статья: https://arxiv.org/abs/2005.02347
