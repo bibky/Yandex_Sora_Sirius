@@ -1,0 +1,9 @@
+# Python 3.10+; tested conceptually with the Colab PyTorch 2.x workflow.
+# On Colab, CUDA-enabled PyTorch is normally preinstalled; do not reinstall blindly.
+torch>=2.2,<3
+numpy>=1.26,<3
+scipy>=1.11,<2
+pandas>=2.0,<3
+matplotlib>=3.8,<4
+tqdm>=4.66,<5
+ipykernel>=6.29,<8
