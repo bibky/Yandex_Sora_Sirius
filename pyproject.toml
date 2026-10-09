@@ -16,7 +16,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-torch = ["torch"]
+torch = ["torch>=2.2,<3", "tqdm"]
 notebooks = ["jupyterlab", "ipykernel", "tqdm", "pandas"]
 
 [tool.setuptools.packages.find]
