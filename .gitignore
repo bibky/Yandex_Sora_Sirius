@@ -4,3 +4,14 @@
 venv
 *.egg-info
 results
+
+# Report-to-presentation generated files
+.agents/skills/report-to-presentation/output/
+
+# Python cache and test artifacts
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Local Python environments
+.venv/
